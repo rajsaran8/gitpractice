@@ -2,7 +2,7 @@ public class Prime {
 
     public static void main(String[] args) {
 
-        int low = 20, high = 50;
+        int low = 80, high = 100; //(Gopi my changes in common file changed values)
 
         while (low < high) {
             if(checkPrimeNumber(low))
