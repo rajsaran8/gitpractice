@@ -26,7 +26,3 @@ public class Prime {
         return flag;
     }
 }
-<<<<<<< HEAD
-//Dinesh added one line
-=======
->>>>>>> b6ee559 (Commanfile commited)
