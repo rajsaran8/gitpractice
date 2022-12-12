@@ -27,6 +27,9 @@ public class Prime {
     }
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 //Dinesh added one line
+=======
+>>>>>>> b6ee559 (Commanfile commited)
 =======
 >>>>>>> b6ee559 (Commanfile commited)
