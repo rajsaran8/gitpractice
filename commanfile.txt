@@ -18,7 +18,7 @@ public class Prime {
         for(int i = 15; i <= num/15; ++i) {         //My Changes 2- 15(G)
 
             if(num % i == 0) {
-                flag = false;
+                flag = true; //Jai Changed False into True
                 break;
             }
         }
@@ -26,3 +26,4 @@ public class Prime {
         return flag;
     }
 }
+//Dinesh added one file // Jai modified
