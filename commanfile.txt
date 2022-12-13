@@ -2,7 +2,7 @@ public class Prime {
 
     public static void main(String[] args) {
 
-        int low = 20, high = 50;
+        int low = 80, high = 100; //(Gopi my changes in common file changed values)
 
         while (low < high) {
             if(checkPrimeNumber(low))
@@ -18,7 +18,7 @@ public class Prime {
         for(int i = 2; i <= num/2; ++i) {
 
             if(num % i == 0) {
-                flag = false;
+                flag = true; //Jai Changed False into True
                 break;
             }
         }
@@ -26,13 +26,5 @@ public class Prime {
         return flag;
     }
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 //Dinesh added one line
-=======
->>>>>>> b6ee559 (Commanfile commited)
-=======
->>>>>>> b6ee559 (Commanfile commited)
-=======
->>>>>>> b6ee559 (Commanfile commited)
+
