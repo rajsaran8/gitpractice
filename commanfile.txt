@@ -18,7 +18,7 @@ public class Prime {
         for(int i = 2; i <= num/2; ++i) {
 
             if(num % i == 0) {
-                flag = false;
+                flag = true; //Jai Changed False into True
                 break;
             }
         }
