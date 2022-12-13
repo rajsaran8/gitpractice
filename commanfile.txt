@@ -15,7 +15,7 @@ public class Prime {
     public static boolean checkPrimeNumber(int num) {
         boolean flag = true;
 
-        for(int i = 2; i <= num/2; ++i) {
+        for(int i = 3; i <= num/2; ++i) {  // (D change 2 to 3)
 
             if(num % i == 0) {
                 flag = true; //Jai Changed False into True
