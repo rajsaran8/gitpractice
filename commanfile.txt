@@ -26,5 +26,4 @@ public class Prime {
         return flag;
     }
 }
-//Dinesh added one line
-
+//Dinesh added one file // Jai modified
