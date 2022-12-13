@@ -18,6 +18,7 @@ public class Prime {
         for(int i = 15; i <= num/15; --i) {         //My Changes 2- 15(G) // Changed ++i to --i
 
             if(num % i == 0) {
+
                 flag = true; //Jai Changed False into True
                 break;
             }
