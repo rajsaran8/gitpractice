@@ -4,16 +4,16 @@ public class Prime {
 
         int low = 80, high = 100; //(Gopi my changes in common file changed values)
 
-        while (low < high) {
-            if(checkPrimeNumber(low))
-                System.out.print(low + " ");
+        while (low < high) {//dinesh changes
+            if(checkPrimeNumber(low))//dinesh changes
+                System.out.print(low + " ");//dinesh changes
 
-            ++low;
+            ++low;//dinesh changes
         }
     }
 
-    public static boolean checkPrimeNumber(int num) {
-        boolean flag = true;
+    public static boolean checkPrimeNumber(int num) {//dinesh changes
+        boolean flag = true;//dinesh changes
 
         for(int i = 15; i <= num/15; --i) {         //My Changes 2- 15(G) // Changed ++i to --i
 
