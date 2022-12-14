@@ -6,7 +6,7 @@ public class Prime {
 
         while (low < high) {//dinesh changes
             if(checkPrimeNumber(low))//dinesh changes
-                System.out.print(low + " ");//dinesh changes
+                System.out.print(low + " It will print in output(Gopi) ");//dinesh changes
 
             ++low;//dinesh changes
         }
